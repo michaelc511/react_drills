@@ -33,8 +33,10 @@ export function Props(){
 
 1 - Pass a prop 'firstName' from the Parent component to the child component
 
-2 - The same as 1 to Child2 but now pass a last name and use JS Desctructing.
+2 - The same as 1 to Child2 but now pass a last name and use JS Destructing.
 
-3 - Now pass a first & last name and a function to Child3. Use JS Desctruting. 
+3 - Now pass a first & last name and a function to Child3. Use JS Destructing. 
+
+4 - For Child4, pass a boolean and use it
 
 */
