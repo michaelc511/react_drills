@@ -1,16 +1,21 @@
+import "../App.css"
 
-function Child(){
-	return(
-		<div>
-			Name:  
-		</div>
-	)	
-}
+
 
 export function Parent(){
-	let name = "Larry"
+	let firstName = "Larry"
+	let lastName = "Watson"
+
+	function sayHello(firstName, lastName){
+		 return "Hello " + firstName + " " + lastName;
+	}
+
 	return (
-		<Child  />
+		<div className="parent">
+		<Child firstName={firstName} />
+		<Child2 firstName={firstName} lastName={lastName} />
+		<Child3 firstName={firstName} lastName={lastName} sayHello={sayHello}/>
+	</div>
 	)
 }
 
@@ -26,8 +31,10 @@ export function Props(){
 
 /*
 
-1 - Pass a prop 'name' from the Parent component to the child component
+1 - Pass a prop 'firstName' from the Parent component to the child component
 
-2 - The same as 1 but use JS Desctructing. 
+2 - The same as 1 to Child2 but now pass a last name and use JS Desctructing.
+
+3 - Now pass a first & last name and a function to Child3. Use JS Desctruting. 
 
 */
