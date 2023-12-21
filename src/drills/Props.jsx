@@ -1,65 +1,86 @@
 import "../App.css"
 
-function Child(props){
-	return(
-		<div>Child 1 - 
+function Child(props) {
+	return (
+		<div>Child 1 -
 			Full Name: {props.firstName}
 		</div>
-	)	
+	)
 }
 
-function Child2({firstName, lastName}){
-	return(
-		<div>Child 2 - 
+function Child2({ firstName, lastName }) {
+	return (
+		<div>Child 2 -
 			Full name: {firstName} {lastName}
 		</div>
 	)
 }
 
-export function Child3({firstName, lastName, sayHello}){
+export function Child3({ firstName, lastName, sayHello }) {
+	return (
+		<div className="child">Child 3 -
+			{sayHello(firstName, lastName)}
+		</div>
+	)
+
+}
+
+// using 'props'
+export function Child3p(props){
 	return(
 		<div className="child">Child 3 - 
-			{sayHello(firstName, lastName)}
+			{props.sayHello(props.firstName, props.lastName)}
 		</div>
 	)
 
 }
 
-export function Child4({firstName, lastName, sayHello, isPro}){
+export function Child4({ firstName, lastName, sayHello, isPro }) {
+	return (
+		<div className="child">Child 4 -
+			{sayHello(firstName, lastName)}
+			<br />{isPro ? "You are a pro!" : "You are not a pro!"}
+		</div>
+	)
+
+}
+
+// using 'props'
+export function Child4p({firstName, lastName, sayHello, isPro}) {
 	return(
-		<div className="child">Child 4 - 
+		<div className="child"> Child 4a
 			{sayHello(firstName, lastName)}
-			<br/>{isPro? "You are a pro!" : "You are not a pro!"} 
+			<br />
+			{isPro ? "You are a pro!" : "You are not a pro"}
 		</div>
 	)
-
 }
 
-export function Parent(){
+export function Parent() {
 	let firstName = "Larry"
 	let lastName = "Watson"
 
 	let isPro = true;
 
-	function sayHello(firstName, lastName){
-		 return "Hello " + firstName + " " + lastName + "! ";
+	function sayHello(firstName, lastName) {
+		return "Hello " + firstName + " " + lastName + "! ";
 	}
 
 	return (
 		<div className="parent">
-		<Child firstName={firstName} />
-		<Child2 firstName={firstName} lastName={lastName} />
-		<Child3 firstName={firstName} lastName={lastName} sayHello={sayHello}/>
-		<Child4 firstName={firstName} lastName={lastName} sayHello={sayHello} isPro={isPro}/>
-	</div>
+			<Child firstName={firstName} />
+			<Child2 firstName={firstName} lastName={lastName} />
+			<Child3 firstName={firstName} lastName={lastName} sayHello={sayHello} />
+			<Child4 firstName={firstName} lastName={lastName} sayHello={sayHello} isPro={isPro} />
+		</div>
 	)
 }
 
-export function Props(){
+export function Props() {
 
-	return(
+	return (
 		<>
-		<div>Props Example</div>
+			<div>Props Example</div>
 		</>
 	)
 
