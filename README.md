@@ -22,6 +22,13 @@ Part 2 Components - Go to 'src/drills/components'. For the App.jsx, import your 
   3. Create a 'Footer.jsx' component. Put in a footer element with content enclosed in a p element
   4. Add them all in the App.jsx
 
+Part 3 Conditional Rendering - Go to 'src/drills/render'. For App.jsx, import your components
+  1. Create a 'UserGreeting.jsx' component. 
+  2. In the App.jsx, pass the props 'isLoggedIn' with a boolean of true and 'userName' with any string.
+  3. In the 'UserGreeting.jsx' use if else to show a message if the user is logged in. Ex. "Welcome Mike" or "Please log in" 
+
+  4. Try it with a teneary operator 
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
