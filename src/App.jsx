@@ -1,14 +1,9 @@
 import { useState } from 'react'
 
 // Drills
-
-// 1. Props
-import  {Props, Parent}  from './drills/props/Props'
-
-// 2. Components
-// import Header from "./Header"
-// import Footer from "./Footer"
-// import Food from "./Food"
+ 
+// 3. Conditional Rendering
+import UserGreeting from './drills/render/UserGreeting'
 
 import './App.css'
 
@@ -17,14 +12,7 @@ function App() {
 
   return (
     <>
-      {/* Props Drill*/}
-      <Parent/> 
-
-      {/* Components Drill
-      <Header/>
-      <Food />
-      <Footer />
-      */}
+     <UserGreeting isLoggedIn={true} userName="Mike" />
     </>
   )
 }
