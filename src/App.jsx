@@ -1,9 +1,7 @@
 import { useState } from 'react'
 
 // Drills
- 
-// 3. Conditional Rendering
-import UserGreeting from './drills/render/UserGreeting'
+  
 
 import './App.css'
 
@@ -12,7 +10,7 @@ function App() {
 
   return (
     <>
-     <UserGreeting isLoggedIn={true} userName="Mike" />
+      Please read README.md
     </>
   )
 }
