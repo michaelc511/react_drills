@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import  {Props, Parent}  from './drills/Props'
+import  {Props, Parent}  from './drills/props/Props'
 
 import './App.css'
 

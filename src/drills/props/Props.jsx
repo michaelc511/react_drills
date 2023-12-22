@@ -1,4 +1,4 @@
-import "../App.css"
+import "../../App.css"
 
 
 
@@ -11,10 +11,10 @@ export function Parent(){
 	}
 
 	return (
-		<div className="parent">
-		<Child firstName={firstName} />
+		<div className="parent">Try it here
+		{/* <Child firstName={firstName} />
 		<Child2 firstName={firstName} lastName={lastName} />
-		<Child3 firstName={firstName} lastName={lastName} sayHello={sayHello}/>
+		<Child3 firstName={firstName} lastName={lastName} sayHello={sayHello}/> */}
 	</div>
 	)
 }
