@@ -33,38 +33,33 @@ Drills
 4 Events
   Reference: https://www.youtube.com/watch?v=KpiiKuqNlYw&t=264s
 
-  Part 1 - Function w no params for an event
-  1. Create a 'Button.jsx' and add a button element with
+  
+  1. Part 1 - Function w no params for an event Create a 'Button.jsx' and add a button element with
   2. Add an onClick event
   3. Add a handleClick() method to alert "OUCH".
 
-  Part 2 - Function w parameter for an event 
-  5. Now add a parameter with name on 'handleClick2(name)' to a 2nd button. 
+  5. Part 2 - Function w parameter for an event  Now add a parameter with name on 'handleClick2(name)' to a 2nd button. 
   6. Notice it will auto run the function. To prevent that, add an arrow function to the onClick event to prevent it. 
 
-  Part 3 - Function with condition
-  7. Add a count =0
+  7. Part 3 - Function with conditionAdd a count =0
   8. On the 'handleClick3', have 1 parameter of name.
   9. Add a condition, if count less than 3, add to the count and alert "<name>, You clicked me <count> of times"
   10. Else alert "<Name>, stop clicking me"
-
-  Part 4 - The Event parameter
-  11. Now create 'handleClick4' with an 'event' argument. Use 'e'
+  
+  11. Part 4 - The Event parameter Now create 'handleClick4' with an 'event' argument. Use 'e'
   12. Console.log the event.
   13. Make sure to wrap it with an arrow function in the event. Ex. {(e)=> handleClick4(e)} 
   14. Now lets change the text content from 'Click Me' to 'Ouch' using 'e.target.textContent = "Ouch"'
+ 
+  15. Part 5 - Doubleclick Change from 'onClick' to 'doubleClick' for 'handleClick4'
 
-  Part 5 - Doubleclick
-  15. Change from 'onClick' to 'doubleClick' for 'handleClick4'
-
-  Part 6 - Picture w event
-  16. Create a 'ProfilePicture.jsx'
+  16. Part 6 - Picture w event Create a 'ProfilePicture.jsx'
   17. Make sure you have an image in 'assets' and import it to this jsx.
   18. Create an 'imageUrl' that is = to the image in the right directory
   19. Create an 'img' element with src={imageUrl}
   20. Add an onClick for a handleClick function that alerts 'OUCH'.
 
-  Part 7 - Picture w event passing the event
-  21. That should work. Now create a new event 'handleClick2' that has a parameter of the event as 'e' to the 'handleClick2' function.
+  
+  21. Part 7 - Picture w event passing the event That should work. Now create a new event 'handleClick2' that has a parameter of the event as 'e' to the 'handleClick2' function.
   22. Since you have the event, just use the event to hide the image 
   Ex. e.target.style.display = "none"
