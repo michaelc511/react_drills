@@ -29,3 +29,11 @@ function App() {
 }
 
 export default App
+
+/*
+// Branch name_#_desc
+  1. Git:  
+  2. Vid:  
+  3. Blog:  
+  4. Solutions: in App.jsx or in README.md
+*/

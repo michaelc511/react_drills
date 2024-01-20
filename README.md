@@ -2,6 +2,14 @@
 
 React Drills
 
+Web Dev Simplified - Branches wds_#_desc
+
+  1. Git: https://github.com/WebDevSimplified
+  2. Vid: https://www.youtube.com/@WebDevSimplified
+  3. Blog:  
+  4. Solutions: in App.jsx or in README.md
+
+
 To install: npm i
 
 To run: npm run dev
