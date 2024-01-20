@@ -2,7 +2,7 @@
 
 React Drills
 
-Web Dev Simplified - Branches wds_#_desc
+Web Dev Simplified - Branches ws_#_desc
 
   1. Git: https://github.com/WebDevSimplified
   2. Vid: https://www.youtube.com/@WebDevSimplified
