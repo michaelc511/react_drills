@@ -71,3 +71,8 @@ Drills
   21. Part 7 - Picture w event passing the event That should work. Now create a new event 'handleClick2' that has a parameter of the event as 'e' to the 'handleClick2' function.
   22. Since you have the event, just use the event to hide the image 
   Ex. e.target.style.display = "none"
+
+5. Invalid Hook Call 
+  1. Git:
+  2. Video: https://www.youtube.com/watch?v=kf8loX8AN-c
+  
