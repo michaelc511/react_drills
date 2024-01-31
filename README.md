@@ -2,6 +2,8 @@
 
 React Drills
 
+Main Youtube Playlist - 5-15 Min Videos: https://www.youtube.com/playlist?list=PLXqOQRPHA5ltU2uU0DzcQ4PsGPLfw7k8F
+
 Web Dev Simplified - Branches ws_#_desc
 
   1. Git: https://github.com/WebDevSimplified
@@ -72,7 +74,15 @@ Drills
   22. Since you have the event, just use the event to hide the image 
   Ex. e.target.style.display = "none"
 
-5. Invalid Hook Call 
+5 Invalid Hook Call 
   1. Git:
   2. Video: https://www.youtube.com/watch?v=kf8loX8AN-c
   3. There are 3 ways to make the hook invalid. Try to initlize it outside of the functional component body, inside a useEffect hook and inside an onClick handler function. You can access and set it but not initialized it. 
+
+6 Import
+  1. Git:
+  2. Videos: 1min+ https://www.youtube.com/watch?v=uGz8YNZNnx8&list=PLXqOQRPHA5ltU2uU0DzcQ4PsGPLfw7k8F&index=36&pp=gAQBiAQB
+
+  12min+ https://www.youtube.com/watch?v=8Ma3HDbQZQk&list=PLXqOQRPHA5ltU2uU0DzcQ4PsGPLfw7k8F&index=37&t=304s&pp=gAQBiAQB
+
+  3. Use import and exports the right way.
