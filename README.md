@@ -75,4 +75,4 @@ Drills
 5. Invalid Hook Call 
   1. Git:
   2. Video: https://www.youtube.com/watch?v=kf8loX8AN-c
-  
+  3. There are 3 ways to make the hook invalid. Try to initlize it outside of the functional component body, inside a useEffect hook and inside an onClick handler function. You can access and set it but not initialized it. 
