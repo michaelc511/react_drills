@@ -85,4 +85,5 @@ Drills
 
   12min+ https://www.youtube.com/watch?v=8Ma3HDbQZQk&list=PLXqOQRPHA5ltU2uU0DzcQ4PsGPLfw7k8F&index=37&t=304s&pp=gAQBiAQB
 
-  3. Use import and exports the right way.
+  3. Create a child comp under '/drills/components', export it and use it with an import.
+  4. Create a js file with multiple functions to be used under '/utils/, export it and use it with an import
