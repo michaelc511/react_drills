@@ -94,5 +94,4 @@ Drills
   1. Git:
   2. Videos/Article: https://chorezap.blogspot.com/2024/02/react-conditional-rendering-4-ways.html 
 
-  3. Create a child comp under '/drills/components', export it and use it with an import.
-  4. Create a js file with multiple functions to be used under '/utils/, export it and use it with an import
+  3. Do it 3 ways on App.jsx
