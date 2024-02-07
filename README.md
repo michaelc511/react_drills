@@ -4,6 +4,8 @@ React Drills
 
 Main Youtube Playlist - 5-15 Min Videos: https://www.youtube.com/playlist?list=PLXqOQRPHA5ltU2uU0DzcQ4PsGPLfw7k8F
 
+Longer Playlist - 20+ Min Videos: https://www.youtube.com/playlist?list=PLXqOQRPHA5lvKBQ2AIjAcS1DuQKMHhE7t
+
 Web Dev Simplified - Branches ws_#_desc
 
   1. Git: https://github.com/WebDevSimplified
@@ -82,6 +84,15 @@ Drills
 6 Import
   1. Git:
   2. Videos: 1min+ https://www.youtube.com/watch?v=uGz8YNZNnx8&list=PLXqOQRPHA5ltU2uU0DzcQ4PsGPLfw7k8F&index=36&pp=gAQBiAQB
+
+  12min+ https://www.youtube.com/watch?v=8Ma3HDbQZQk&list=PLXqOQRPHA5ltU2uU0DzcQ4PsGPLfw7k8F&index=37&t=304s&pp=gAQBiAQB
+
+  3. Create a child comp under '/drills/components', export it and use it with an import.
+  4. Create a js file with multiple functions to be used under '/utils/, export it and use it with an import
+
+7. Conditional Rendering
+  1. Git:
+  2. Videos: https://www.youtube.com/watch?v=XvURBpFxdGw 
 
   12min+ https://www.youtube.com/watch?v=8Ma3HDbQZQk&list=PLXqOQRPHA5ltU2uU0DzcQ4PsGPLfw7k8F&index=37&t=304s&pp=gAQBiAQB
 
